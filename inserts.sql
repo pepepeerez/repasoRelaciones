@@ -1,0 +1,15 @@
+INSERT INTO alumnos VALUES ("1994-11-02", 0, "david.cuevas@a.vedrunasevillasj.es", "David", "Cuevas Gil");
+INSERT INTO alumnos VALUES ("1999-11-02", 0, "diana.pascual@a.vedrunasevillasj.es", "Diana", "Pascual Garcia");
+INSERT INTO documentos_identidad VALUES (1, 0, "A", "12345678");
+INSERT INTO documentos_identidad VALUES (2, 0, "A", "12345679");
+INSERT INTO asignaturas VALUES(0, "Servidor");
+INSERT INTO alumno_matriculado_asignatura VALUES (1,1);
+INSERT INTO notas VALUES (7, 1,1, 0, "Api servidor");
+INSERT INTO notas VALUES (8, 1,1, 0, "trabajo Servidor");
+INSERT INTO asignaturas VALUES(0, "cliente");
+INSERT INTO notas VALUES (10, 2,1, 0, "trabajo Servidor");
+INSERT INTO notas VALUES (4, 1,2, 0, "trabajo cliente");
+INSERT INTO notas VALUES (2, 2,2, 0, "trabajo cliente");
+INSERT INTO alumno_matriculado_asignatura VALUES (1,2);
+INSERT INTO alumno_matriculado_asignatura VALUES (2,1);
+INSERT INTO alumno_matriculado_asignatura VALUES (2,2);
